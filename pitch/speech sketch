@@ -1,0 +1,100 @@
+Hi everyone, am konstantinos andreou the developer of On Block-BoC.
+
+Slide 2:
+
+So lets talk about the future. Scientist say that we are in the "Digital age" as they call it, but are we?  For example, to transfer a real estate ownership, I need to find the ownership paper and go to a building, find an person authorized to sign do the transfer, takes so much time. does this sound a digital age?
+Or lets think the other senario, money are actually printed on real materials, and people work to print them, transfer them to vaults. how is this digital age?
+
+Slide 3:
+
+So we need a solution that its automated the whole process, in seconds,Transparent, Secure, And entirely digital
+
+We just described blockchain technology. And i know that banks dont like it, because they think they have no control. But we can have control using our own smart contract. 
+
+Slide 4:
+
+What is a smart contract? In simple words: We build on existing blockchain ecosystem, our “Code”. We decide the functionalities! We get Control!
+In my project I created 3 smart contracts on blockchain Linea, 
+EurBoC – Euro on blockchain Fiat Pegged
+Real-Estates - NFT
+and Real-Estate-Marketplace
+
+All smart contracts are Centralized and owned by the bank! So we verify wallets on blockchain that we want to use the tokens, providing a kyc method on blockchain!
+
+Slide 5:
+Enoguh talking, lets move on to the demo.
+
+lets say am a new user, so I login to my account 351012345671
+
+then I connect and verify my wallet, and as we can we the wallet now its verified on the blockchain! So if a wallet is not verified on blockchain using his boC details, he cant send or receive EurBoC, this a know your costumer method, we know to whom the wallet belongs to.
+
+now we convert some fiat to EurBoC. - we can see on blockchain the EurBoC being minted. so on the one hand we have BoC API makes payment on User Fiat account and reserve the fiat, and on the other hand we see our smart contract "printing euro" on blockchain. that is what fiat pegged means, we have 1 fiat euro reserved for each digital euro.
+
+Now lets use these eurboc to buy a real estate nft ownership. we go to the marketplace, use and click buy. -
+as we see we bought the real estate, the euroboc are transfered from our wallet to the seller wallet. 
+We can list it for sell, and we can see the listing transaction on blockchain.
+
+lets connect to the seller wallet, we see we did receive the euroboc. and we can convert it to fiat.
+
+so basically you can send or receive digital euros. The bank has control over it, only verified wallets can use it and the bank can pause the transactions any time.
+Real-Estate ownership is also fast and secured.
+These are the main functionalities of the demo but there are so many things happen on background.
+
+we go back to our slides now,
+
+Slide 6:
+
+Now you might wonder, why should the bank care? 
+Automated Transactions: Reduce employee hours and operational costs.
+EU Blockchain Push (€500m+ for research)
+Attract Million of new customers since there is so much interest by young people.
+Crypto Regulation by 2025: 
+The EU mandates all member states to regulate crypto by 2025.
+ (Source: ECB speech on crypto regulation by 2025)
+Cyprus Sets the Clock for Crypto: October 
+
+
+Slide 7:
+
+In american there are two stable coins and they are success business plan. china has its own cryptocoin China's cryptocurrency. 
+This is a big opportunity knocking our doors. if they regulate crypto in 2025 and you start your project in 2025, you are already late. you must be ready once the regulations pass, to push a product to the market, it will attrack thousands even million of new costumers for the bank, on over the europe not only in cyprus! 
+before I close, I want to say one question: Digitalization is coming whatever we want it or no. We have one decision to make: are we gonna help the process and make money on the way? or we will drop it and say its too complicated and miss a billion euro opportunity?
+
+---------------------------------------------
+
+...
+
+It will attrack so many customers. In american there are 3 stable coins fiat pegged and this business plan works perfect. China has already switched to a blockchain.
+
+One day fiat will be in past, Its gonna happen whatever we want it or no. Now its our decision to make, are we gonna help the progress of digitization and make money from it, or are we gonna say its not for me its too complicated and miss a billion euro opportunity.
+
+
+EU in the latest years they are funding many blockchain projects!
+
+our banking systems are being the same for so many years. 
+and ownership of real estates still being a piece of paper! we are in 2024 and to transfer ownership, I need to find the ownership paper and make the transfer, takes so much time and etc.
+
+
+
+...
+
+3 smart contracts on blockchain - eurboc, realestatenft, marketplace. What is smart contract?! (explain it simple) - its building on existing blockchain, adding our functionalities. Build on linea blockchain for low fee cost and fast transactions, environmental friendly.
+
+eurboc - smart contract on the blockchain, keeping the benefits of the blockchain but we still centralize token have control over the eurboc, can mint burn pause, and most important verify user from platform, in order to receive and send eurboc you must be verified within the platform, so you kyc. its fiat pegged- means for 1 eurboc, there is 1euro reserved in bank of cyprus.
+
+real estates nft -
+
+
+Keep in mind, I cant transfer eurboc or ownership nft to wallets that are not verified aka kyc.
+
+
+
+
+The whole project I made it within the hackathon, in few days.
+
+
+final pitch:
+
+
+
+before I close, I want to say one question: Digitalization is coming whatever we want it or no. We have one decision to make: are we gonna help the process, lead the way, and make money on the way? or we will drop it and say its too complicated and miss a billion euro opportunity?
