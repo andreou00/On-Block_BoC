@@ -1,4 +1,5 @@
 # On Block-BoC
+![logo](https://github.com/user-attachments/assets/4179dc1c-1de5-4ed9-9356-fd03d61eeb35)
 
 **On Block-BoC** is an innovative platform that leverages blockchain technology to revolutionize real estate transactions and fiat-to-stablecoin conversion. Built during the BoC Hackathon, this project aims to streamline and automate real estate ownership transfer using NFTs, while also providing a stablecoin, **EurBoC**, pegged 1:1 to the euro, ensuring a smooth transition between traditional banking systems and decentralized finance.
 
