@@ -1,0 +1,232 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+
+body {
+  background-color: #161b37; /* Dark blue background */
+  color: #ffffff; /* White text */
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* Navbar Styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #302e4d; /* Purple background */
+  padding: 1rem;
+  margin-bottom: 2rem;
+  transition: background-color 0.5s ease-in-out; /* Smooth background transition */
+}
+
+nav ul li {
+  display: inline;
+}
+
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h2 {
+  color: #64f4ac; /* Light green title color */
+  margin-bottom: 1.5rem;
+}
+
+/* Input and Button Styling */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e3358;
+  color: #ffffff;
+  outline: none;
+  font-size: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  box-shadow: 0px 0px 10px rgba(100, 244, 172, 0.5); /* Glowing effect on focus */
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #64f4ac;
+  color: #161b37; /* Dark background for contrast */
+  border: none;
+  border-radius: 25px; /* Rounded buttons */
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px; /* Add space between buttons */
+  margin-bottom: 10px; /* Add space below buttons */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 8px 15px rgba(100, 244, 172, 0.2); /* Shadow for depth */
+}
+
+button:hover {
+  background-color: #52e295;
+  transform: translateY(-3px); /* Move the button slightly up */
+  box-shadow: 0px 12px 20px rgba(100, 244, 172, 0.3); /* Enhanced shadow on hover */
+}
+
+button:active {
+  transform: translateY(2px); /* Pressed button effect */
+  box-shadow: 0px 4px 10px rgba(100, 244, 172, 0.2); /* Less shadow on active */
+}
+
+
+button.disconnect-wallet {
+  background-color: #ff4b5c; /* Red */
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.disconnect-wallet:hover {
+  background-color: #ff808f; /* Pink when hovered */
+}
+
+button.disconnect-wallet:active {
+  background-color: #ff2a3b; /* Darker red when pressed */
+}
+
+/* Red button for Sign Out */
+button.sign-out {
+  background-color: #ff0000; /* Bright red */
+  color: #ffffff;
+}
+
+button.sign-out:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+button.sign-out:active {
+  background-color: #990000; /* Even darker red when clicked */
+}
+
+/* Error Messages */
+.error {
+  color: #ff4b5c;
+}
+
+/* Welcome Message */
+.welcome {
+  margin-bottom: 2rem;
+}
+
+/* Verified Wallet Label */
+.verified {
+  color: #52e295;
+  font-weight: bold;
+}
+
+/* Position login and account info in top right corner */
+.account-info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #302e4d; /* Same as navbar background */
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  animation: slide-in 0.8s ease-in-out; /* Slide-in animation */
+}
+
+/* Slide-in Animation */
+@keyframes slide-in {
+  0% {
+      opacity: 0;
+      transform: translateY(-30px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.account-info p {
+  margin-bottom: 0.5rem;
+}
+
+.account-info button {
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul li {
+      margin-bottom: 1rem;
+  }
+
+  .account-info {
+      width: 100%;
+      right: 0;
+      top: 0;
+      border-radius: 0;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px;  /* Adjust this size based on your needs */
+  height: auto;
+}
+
+
+/* Navbar Styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Align the items vertically in the center */
+  background-color: #302e4d; /* Purple background */
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 15px; /* Rounded corners */
+  transition: background-color 0.5s ease-in-out;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #64f4ac;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+nav img {
+  height: 60px; /* Adjust the size of the logo */
+  margin-right: 10px; /* Add some space between the logo and the links */
+}

@@ -1,0 +1,119 @@
+/* General Styling */
+.marketplace-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #00ff99;
+    margin-bottom: 30px;
+  }
+  
+  /* Card Styling */
+  .property-card {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    position: relative;
+  }
+
+  /* Address wrapping */
+  .property-card p {
+    word-wrap: break-word; 
+    white-space: normal;
+    color: #555;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+  
+  
+  .property-card h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .property-card p {
+    color: #555;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+  
+  .property-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  /* Price Section */
+  .property-card .price {
+    font-weight: bold;
+    color: #ff5e57;
+    margin-top: 15px;
+  }
+  
+  /* Button Styling */
+  .property-card button {
+    background-color: #ff5e57;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .property-card button:hover {
+    background-color: #ff7875;
+  }
+  
+  /* Cancel Button */
+  .property-card .cancel-button {
+    background-color: #f5222d;
+  }
+  
+  .property-card .cancel-button:hover {
+    background-color: #ff4d4f;
+  }
+  
+
+  .no-nfts {
+    color: #999;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+  .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+
+.property-card p.owner {
+    color: #00008B; 
+    font-weight: bold; 
+  }
+  
+  
+  .property-card p.price {
+    font-weight: bold;
+    font-size: 1.2rem; 
+    color: #000; 
+  }
+  

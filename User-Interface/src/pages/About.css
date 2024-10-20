@@ -1,0 +1,20 @@
+.about {
+    text-align: center;
+    padding: 2rem;
+    background-color: #161b37;
+    color: #ffffff;
+}
+
+.about-title {
+    font-size: 2rem;
+    color: #64f4ac;
+    margin-bottom: 1rem;
+}
+
+.about-description,
+.about-mission,
+.about-call {
+    font-size: 1.2rem;
+    color: #c5c7e5;
+    margin-bottom: 1rem;
+}

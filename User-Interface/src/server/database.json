@@ -1,0 +1,38 @@
+[
+  {
+    "Account Owner": "DEMETRIS KOSTA",
+    "Account Number": "351092345676",
+    "Balance": 20000,
+    "Wallet Address": ""
+  },
+  {
+    "Account Owner": "GEORGE ANDREOU",
+    "Account Number": "351012345673",
+    "Balance": 1699,
+    "Wallet Address": "0x9659F726fEEDAC972FfFe1F2CA882782aF0Fa608"
+  },
+  {
+    "Account Owner": "ANDREAS MICHAEL",
+    "Account Number": "351012345671",
+    "Balance": 100000,
+    "Wallet Address": ""
+  },
+  {
+    "Account Owner": "CHRISTOS SAVVA",
+    "Account Number": "351012345674",
+    "Balance": 200000,
+    "Wallet Address": ""
+  },
+  {
+    "Account Owner": "ANDREAS MICHAEL",
+    "Account Number": "351012345675",
+    "Balance": 9999999,
+    "Wallet Address": ""
+  },
+  {
+    "Account Owner": "DEMETRIS KOSTA",
+    "Account Number": "351092345672",
+    "Balance": 9999999,
+    "Wallet Address": ""
+  }
+]

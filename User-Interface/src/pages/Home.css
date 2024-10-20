@@ -1,0 +1,49 @@
+.home {
+    text-align: center;
+    padding: 3rem;
+    background-color: #161b37;
+    color: #ffffff;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    color: #64f4ac;
+    margin-bottom: 1.5rem;
+    animation: fade-in 1.5s ease-in-out;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #c5c7e5;
+    animation: fade-in 2s ease-in-out;
+}
+
+.home-invite {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #64f4ac;
+    margin-top: 1.5rem;
+    animation: slide-in 2.5s ease-in-out;
+}
+
+/* Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
