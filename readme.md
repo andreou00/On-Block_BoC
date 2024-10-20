@@ -108,6 +108,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 Created by **Konstantinos Andreou**. 
 
 - [LinkedIn](https://www.linkedin.com/in/andreou00/)
-- Email: konstantinos.andreou@blockboc.com
-
+- 
 Feel free to reach out if you have any questions or want to contribute to the project!
