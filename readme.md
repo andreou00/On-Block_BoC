@@ -7,12 +7,16 @@ Demo Video: https://youtu.be/6tKLkvdp5Xg
 
 Live Demo dApp: https://on-blockboc.netlify.app/
 
-Why Linea?
+Why **Linea**?
+
 
 On Block-BoC is powered by the Linea blockchain due to its unmatched benefits, including:
 
+
  • Low transaction fees: Making it cost-effective for both users and banks.
+ 
  • Fast transaction speeds: Ensuring real-time transactions without delays.
+ 
  • Environmentally friendly: Designed with a focus on minimizing energy consumption, making it a sustainable choice for blockchain solutions.
 
 ## Table of Contents
