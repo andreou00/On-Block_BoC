@@ -1,11 +1,19 @@
 # On Block-BoC
 ![logo](https://github.com/user-attachments/assets/4179dc1c-1de5-4ed9-9356-fd03d61eeb35)
 
-**On Block-BoC** is an innovative platform that leverages blockchain technology to revolutionize real estate transactions and fiat-to-stablecoin conversion. Built during the BoC Hackathon, this project aims to streamline and automate real estate ownership transfer using NFTs, while also providing a stablecoin, **EurBoC**, pegged 1:1 to the euro, ensuring a smooth transition between traditional banking systems and decentralized finance.
+**On Block-BoC** is an innovative platform that leverages blockchain technology to revolutionize real estate transactions and fiat-to-stablecoin conversion. Built on Linea, this project aims to streamline and automate real estate ownership transfer using NFTs, while also providing a stablecoin, **EurBoC**, pegged 1:1 to the euro, ensuring a smooth transition between traditional banking systems and decentralized finance.
 
 Demo Video: https://youtu.be/6tKLkvdp5Xg
 
 Live Demo dApp: https://on-blockboc.netlify.app/
+
+Why Linea?
+
+On Block-BoC is powered by the Linea blockchain due to its unmatched benefits, including:
+
+ • Low transaction fees: Making it cost-effective for both users and banks.
+ • Fast transaction speeds: Ensuring real-time transactions without delays.
+ • Environmentally friendly: Designed with a focus on minimizing energy consumption, making it a sustainable choice for blockchain solutions.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
