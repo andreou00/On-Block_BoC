@@ -3,6 +3,9 @@
 
 **On Block-BoC** is an innovative platform that leverages blockchain technology to revolutionize real estate transactions and fiat-to-stablecoin conversion. Built during the BoC Hackathon, this project aims to streamline and automate real estate ownership transfer using NFTs, while also providing a stablecoin, **EurBoC**, pegged 1:1 to the euro, ensuring a smooth transition between traditional banking systems and decentralized finance.
 
+Demo Video: https://youtu.be/6tKLkvdp5Xg
+Live Demo dApp: https://on-blockboc.netlify.app/
+
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)
