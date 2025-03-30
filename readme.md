@@ -3,15 +3,15 @@
 
 **On Block-BoC** is an innovative platform that leverages blockchain technology to revolutionize real estate transactions and fiat-to-stablecoin conversion. Built on Linea, this project aims to streamline and automate real estate ownership transfer using NFTs, while also providing a stablecoin, **EurBoC**, pegged 1:1 to the euro, ensuring a smooth transition between traditional banking systems and decentralized finance.
 
+📌 **Submitted to the [MetaMask Dev Cook-Off Hackathon](https://www.hackquest.io/hackathons/MetaMask-Dev-Cook-Off-Feb-March)** – proudly integrating the official **MetaMask SDK** for seamless wallet connections across platforms.
+
 Demo Video: https://youtu.be/6tKLkvdp5Xg
 
 Live Demo dApp: https://on-blockboc.netlify.app/
 
 Why **Linea**?
 
-
 On Block-BoC is powered by the Linea blockchain due to its unmatched benefits, including:
-
 
  • Low transaction fees: Making it cost-effective for both users and banks.
  
@@ -44,6 +44,7 @@ The **On Block-BoC** platform offers a seamless solution for real estate tokeniz
 - **KYC Compliance**: Users must pass a **Know Your Customer (KYC)** process to ensure regulatory compliance, creating a secure ecosystem for transactions.
 - **Ownership Transfer**: Real estate ownership transfers happen instantly, recorded on the blockchain for transparency and security.
 - **Decentralized Marketplace**: Users can list, buy, and sell tokenized properties directly in the marketplace using EurBoC.
+- **MetaMask SDK Integration**: On Block-BoC uses the official MetaMask SDK for secure and streamlined wallet connectivity on both web and mobile.
 
 ---
 
@@ -52,7 +53,7 @@ The **On Block-BoC** platform offers a seamless solution for real estate tokeniz
 - **Blockchain**: Built on the **Linea Blockchain** for fast, low-cost, and eco-friendly transactions.
 - **Smart Contracts**: Developed using **Solidity** for the Ethereum Virtual Machine (EVM).
 - **React.js**: Frontend built using **React** for a modern, responsive user interface.
-- **MetaMask**: Wallet integration for interacting with the blockchain.
+- **MetaMask SDK**: Official SDK integration to manage wallet connections across platforms.
 - **Node.js & Express**: Backend server to handle API calls and balance updates.
 
 ---
@@ -63,6 +64,7 @@ The **On Block-BoC** platform offers a seamless solution for real estate tokeniz
 2. **Real Estate Tokenization**: Property owners can tokenize their assets by minting NFTs through the **RealEstateNFT** smart contract, where each NFT represents a real property.
 3. **Marketplace**: Tokenized real estate NFTs can be listed for sale in the marketplace. Buyers can purchase the property using EurBoC, and ownership is transferred instantly via the blockchain.
 4. **KYC Verification**: All transactions require verified users to comply with regulatory standards. Wallets must be KYC-verified before they can receive or send EurBoC or real estate NFTs.
+5. **MetaMask Wallet Connection**: The MetaMask SDK enables seamless interaction between the dApp and the user's wallet, offering a smoother onboarding experience, especially on mobile.
 
 ---
 
@@ -88,7 +90,7 @@ The **On Block-BoC** platform offers a seamless solution for real estate tokeniz
 
 3. Set up your environment variables:
    - Configure the necessary blockchain network details, API keys, and BoC account access.
-  
+
 4. Run the development server:
     ```bash
     npm start
@@ -124,5 +126,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 Created by **Konstantinos Andreou**. 
 
 - [LinkedIn](https://www.linkedin.com/in/andreou00/)
-- 
+
 Feel free to reach out if you have any questions or want to contribute to the project!
