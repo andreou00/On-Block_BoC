@@ -1,6 +1,9 @@
+// Updated App.js using MetaMask SDK instead of window.ethereum
+
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Web3 from 'web3';
+import MetaMaskSDK from '@metamask/sdk';
 import FiatToEurBoC from './pages/FiatToEurBoC';
 import Marketplace from './pages/Marketplace';
 import Home from './pages/Home';  
@@ -35,6 +38,14 @@ function App() {
     const [realEstateNFTContract, setRealEstateNFTContract] = useState(null);
     const [error, setError] = useState('');
 
+    const MMSDK = new MetaMaskSDK({
+        dappMetadata: {
+            name: 'OnBlockBoC',
+            url: window.location.href,
+        },
+    });
+    const ethereum = MMSDK.getProvider();
+
     useEffect(() => {
         const savedAccountNumber = localStorage.getItem('accountNumber');
         if (savedAccountNumber) {
@@ -47,8 +58,8 @@ function App() {
     }, []);
 
     useEffect(() => {
-        if (window.ethereum) {
-            const web3Instance = new Web3(window.ethereum);
+        if (ethereum) {
+            const web3Instance = new Web3(ethereum);
             setWeb3(web3Instance);
 
             try {
@@ -64,7 +75,7 @@ function App() {
                 setError('Contract initialization failed');
             }
         }
-    }, [web3]);
+    }, [ethereum]);
 
     const fetchEurBoCBalance = async () => {
         if (!eurBoCContract || !account) return;
@@ -77,20 +88,17 @@ function App() {
     };
 
     const connectWallet = async () => {
-        if (window.ethereum) {
-            try {
-                await window.ethereum.request({ method: 'eth_requestAccounts' });
-                const accounts = await web3.eth.getAccounts();
-                setAccount(accounts[0]);
-                await switchNetwork();
-                fetchEurBoCBalance();
-                checkWalletVerification(accounts[0]);
-            } catch (err) {
-                console.error('MetaMask connection failed', err);
-                setError('MetaMask connection failed');
-            }
-        } else {
-            alert('Please install MetaMask!');
+        if (!ethereum) return alert('Please install MetaMask!');
+
+        try {
+            const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+            setAccount(accounts[0]);
+            await switchNetwork();
+            fetchEurBoCBalance();
+            checkWalletVerification(accounts[0]);
+        } catch (err) {
+            console.error('MetaMask connection failed', err);
+            setError('MetaMask connection failed');
         }
     };
 
@@ -136,14 +144,14 @@ function App() {
 
     const switchNetwork = async () => {
         try {
-            await window.ethereum.request({
+            await ethereum.request({
                 method: 'wallet_switchEthereumChain',
                 params: [{ chainId: TARGET_NETWORK.chainId }],
             });
         } catch (switchError) {
             if (switchError.code === 4902) {
                 try {
-                    await window.ethereum.request({
+                    await ethereum.request({
                         method: 'wallet_addEthereumChain',
                         params: [TARGET_NETWORK],
                     });
@@ -184,10 +192,9 @@ function App() {
         <Router>
             <div className="container">
                 <nav>
-                    
                     <ul>
                         <div className="logo">
-                            <img src={logo} alt="Logo" className="logo-img" />  {/* Add this for the logo */}
+                            <img src={logo} alt="Logo" className="logo-img" />
                         </div>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
@@ -201,7 +208,6 @@ function App() {
                         <p>Welcome, {loggedInAccount['Account Owner']}!</p>
                         <p>Your Fiat Balance: €{loggedInAccount.Balance.toLocaleString()}</p>
                         <p>Your EurBoC Balance: {eurBoCBalance} EurBoC</p>
-                
                         {account ? (
                             <>
                                 <p>Connected Wallet: {account}</p>
@@ -215,7 +221,6 @@ function App() {
                         ) : (
                             <button onClick={connectWallet}>Connect Wallet</button>
                         )}
-
                         <button className="sign-out" onClick={handleLogout}>Sign Out</button>
                     </div>
                 ) : (
