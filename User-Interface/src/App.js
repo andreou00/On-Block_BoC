@@ -1,5 +1,3 @@
-// Updated App.js using MetaMask SDK instead of window.ethereum
-
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Web3 from 'web3';
